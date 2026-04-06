@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background: #f5f5f5; /* أبيض خفيف */
+    color: #333;
+    direction: rtl;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* الهيدر */
+.header {
+    text-align: center;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #d2b48c; /* بني فاتح */
+}
+
+.header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #8b5e3c; /* بني */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #5a3e2b; /* بني غامق */
+}
+
+.job {
+    color: #777;
+}
+
+/* الكروت */
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+h2 {
+    color: #5a3e2b;
+    border-bottom: 2px solid #d2b48c;
+    padding-bottom: 5px;
+}
+
+/* المهارات */
+.skill {
+    margin-top: 15px;
+}
+
+.bar {
+    background: #eee;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar div {
+    height: 100%;
+    background: linear-gradient(to right, #8b5e3c, #d2b48c); /* بني متدرج */
+}
+
+/* تأثير */
+.card:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+/* تكبير الخط */
+body {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.job {
+    font-size: 18px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.skill span {
+    font-size: 17px;
+}
+/* معلومات */
+.info p {
+    margin: 8px 0;
+}
+
+/* شريط مهارات ناعم */
+.bar div {
+    height: 100%;
+    border-radius: 10px;
+    animation: load 1.5s ease;
+}
+
+/* نسب المهارات */
+.html { width: 85%; }
+.css { width: 75%; }
+.js { width: 60%; }
+.time { width: 80%; }
+.read { width: 90%; }
+.design { width: 70%; }
+
+/* حركة */
+@keyframes load {
+    from { width: 0; }
+}
+
+/* تأثير احترافي */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+/* دخول الصفحة */
+body {
+    animation: fadePage 1s ease;
+}
+
+@keyframes fadePage {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* الكروت */
+.card {
+    opacity: 1;
+    transform: translateY(30px);
+    animation: showCard 0.8s ease forwards;
+}
+
+/* ترتيب الظهور */
+.card:nth-of-type(1) { animation-delay: 0.2s; }
+.card:nth-of-type(2) { animation-delay: 0.4s; }
+.card:nth-of-type(3) { animation-delay:
