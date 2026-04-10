@@ -1,87 +1,64 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>CV - دانية لطف النجار</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دانية لطف النجار - السيرة الذاتية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; background-color: #f0f2f5; margin: 0; padding: 0; color: #333; }
+        nav { background: #1a252f; padding: 15px; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { background: white; margin: 25px auto; padding: 30px; max-width: 650px; border-radius: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); }
+        .icon-link { font-size: 35px; margin: 15px; text-decoration: none; transition: 0.3s; display: inline-block; }
+        .btn { display: inline-block; padding: 12px 25px; background: #3498db; color: white; text-decoration: none; border-radius: 10px; margin-top: 15px; font-weight: bold; }
+        .cert-card { border: 2px solid #e0e0e0; border-radius: 15px; padding: 10px; margin-top: 20px; background: #fafafa; }
+        .cert-img { width: 100%; max-width: 450px; border-radius: 10px; cursor: pointer; transition: 0.3s; }
+        .cert-img:hover { transform: scale(1.02); }
+    </style>
 </head>
 <body>
 
-<div class="container">
+    <nav>
+        <a href="#about">الرئيسية</a>
+        <a href="#portfolio">أعمالي</a>
+        <a href="#contact">تواصل معي</a>
+    </nav>
 
-    <!-- الهيدر -->
-    <div class="header">
-        <img src="profile.jpeg" alt="profile">
+    <section id="about">
+        <img src="profile.jpeg" width="140" height="140" style="border-radius: 50%; object-fit: cover; border: 4px solid #3498db;">
         <h1>دانية لطف النجار</h1>
-        <p class="job">Front-End Developer|Web Designer</p>
-    </div>
-    <div class="card info">
-    <h2><i class="fa-solid fa-id-card"></i> معلومات شخصية</h2>
-    <p><i class="fa-solid fa-user"></i> دانية لطف النجار</p>
-    <p><i class="fa-solid fa-laptop-code"></i> مطورة واجهات</p>
-    <p><i class="fa-solid fa-location-dot"></i> اليمن</p>
-</div>
-
-    <!-- نبذة -->
-    <div class="card">
-        <h2><i class="fa-solid fa-user"></i> نبذة عني</h2>
-        <p>
-            مبرمجة شغوفةبتطوير المواقع وأسعى لتعلم المزيد وبناء مشاريع احترافية.
+        <p style="font-size: 1.1em; color: #555;">Front-End Developer | Web Designer</p>
+        
+        <p><i class="fas fa-map-marker-alt" style="color: #e74c3c;"></i> 
+            <a href="https://www.google.com/maps?q=Yemen,Aden" target="_blank" style="color: #1a252f; text-decoration: none; font-weight: bold;">
+                عدن، اليمن (اضغطي لفتح الخريطة)
+            </a>
         </p>
-    </div>
+    </section>
 
-    <!-- المهارات -->
-    <div class="card">
-        <h2><i class="fa-solid fa-code"></i> المهارات</h2>
-
-        <div class="skill">
-            <span>HTML</span>
-            <div class="bar"><div style="width:85%"></div></div>
+    <section id="portfolio">
+        <h2><i class="fas fa-layer-group"></i> نماذج من أعمالي</h2>
+        <p>عرض تقديمي عن مشاريعي:</p>
+        <a href="رابط_قوقل_درايف_هنا" target="_blank" class="btn">فتح العرض التقديمي</a>
+        
+        <div class="cert-card">
+            <h3><i class="fas fa-award" style="color: #f1c40f;"></i> شهادة تطوير الذات</h3>
+            <a href="cert.jpg" target="_blank">
+                <img src="cert.jpg" alt="شهادة دانية النجار" class="cert-img">
+            </a>
+            <p style="font-size: 0.9em; color: #777;">(اضغطي على الصورة لعرضها بالحجم الكامل)</p>
         </div>
+    </section>
 
-        <div class="skill">
-            <span>CSS</span>
-            <div class="bar"><div style="width:75%"></div></div>
+    <section id="contact">
+        <h2><i class="fas fa-comments"></i> تواصل معي</h2>
+        <div style="display: flex; justify-content: center; gap: 20px;">
+            <a href="mailto:your-email@gmail.com" class="icon-link" style="color: #ea4335;"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+967700000000" class="icon-link" style="color: #25d366;"><i class="fab fa-whatsapp"></i></a>
         </div>
-
-        <div class="skill">
-            <span>JavaScript</span>
-            <div class="bar"><div style="width:60%"></div></div>
-        </div>
-
-        <div class="skill">
-            <span>إدارة الوقت</span>
-            <div class="bar"><div style="width:80%"></div></div>
-        </div>
-
-        <div class="skill">
-            <span>حب القراءة</span>
-            <div class="bar"><div style="width:90%"></div></div>
-        </div>
-
-        <div class="skill">
-            <span>التصميم</span>
-            <div class="bar"><div style="width:70%"></div></div>
-        </div>
-
-     
-</div>
-    </div>
-
-    <!-- الهدف -->
-    <div class="card">
-        <h2><i class="fa-solid fa-bullseye"></i> الهدف</h2>
-        <p>
-            الوصول إلى مستوى احترافي والعمل في مجال تطوير الويب.
-        </p>
-    </div>
-
-</div>
+        <p>بإمكانكِ تعديل الإيميل والرقم داخل الكود بسهولة</p>
+    </section>
 
 </body>
 </html>
