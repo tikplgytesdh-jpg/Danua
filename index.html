@@ -6,43 +6,31 @@
     <title>دانية لطف النجار - السيرة الذاتية</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; background-color: #f0f2f5; margin: 0; padding: 0; color: #333; line-height: 1.6; }
-        nav { background: #1a252f; padding: 15px; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+        body { font-family: 'Segoe UI', sans-serif; text-align: center; background-color: #f0f2f5; margin: 0; padding: 0; }
+        nav { background: #1a252f; padding: 15px; position: sticky; top: 0; z-index: 1000; }
         nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        section { background: white; margin: 25px auto; padding: 30px; max-width: 650px; border-radius: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); text-align: right; }
-        h1, h2, h3 { text-align: center; color: #1a252f; }
-        .profile-img { display: block; margin: 0 auto 15px; border-radius: 50%; object-fit: cover; border: 4px solid #3498db; }
-        .btn { display: inline-block; padding: 12px 25px; background: #3498db; color: white; text-decoration: none; border-radius: 10px; margin-top: 15px; font-weight: bold; transition: 0.3s; }
-        .btn:hover { background: #2980b9; }
-        /* إطار الشهادة الذهبي */
-        .cert-container { border: 6px double #d4af37; padding: 10px; border-radius: 15px; background: #fff; display: inline-block; box-shadow: 0 10px 20px rgba(0,0,0,0.1); margin: 20px auto; width: 90%; }
-        .cert-img { width: 100%; border-radius: 5px; display: block; }
-        .icon-link { font-size: 35px; margin: 0 15px; text-decoration: none; transition: 0.3s; }
-        ul { list-style: none; padding: 0; }
-        ul li::before { content: "✔"; color: #3498db; margin-left: 10px; }
-        .contact-box { text-align: center; margin-top: 20px; }
+        section { background: white; margin: 20px auto; padding: 25px; max-width: 600px; border-radius: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: right; }
+        .profile-img { display: block; margin: 0 auto 15px; border-radius: 50%; border: 4px solid #3498db; }
+        .btn { display: inline-block; padding: 12px 25px; background: #3498db; color: white; text-decoration: none; border-radius: 10px; margin-top: 15px; font-weight: bold; }
+        .cert-container { border: 6px double #d4af37; padding: 10px; border-radius: 15px; background: #fff; display: inline-block; margin: 20px auto; width: 90%; }
+        .cert-img { width: 100%; border-radius: 5px; }
+        .icon-link { font-size: 35px; margin: 0 15px; text-decoration: none; }
     </style>
 </head>
 <body>
-
     <nav>
         <a href="#about">عني</a>
         <a href="#skills">المهارات</a>
         <a href="#portfolio">أعمالي</a>
-        <a href="#contact">اتصل بي</a>
+        <a href="#contact">تواصل معي</a>
     </nav>
 
     <section id="about">
-        <img src="profile.jpeg" width="140" height="140" class="profile-img">
-        <h1>دانية لطف النجار</h1>
-        <p style="text-align:center; font-weight: bold; color: #3498db;">Front-End Developer | Web Designer</p>
+        <img src="profile.jpeg" width="130" height="130" class="profile-img">
+        <h1 style="text-align:center;">دانية لطف النجار</h1>
+        <p style="text-align:center; color: #3498db;">Front-End Developer</p>
         <p><strong>نبذة عني:</strong> مبرمجة شغوفة بتطوير المواقع وأسعى لتعلم المزيد وبناء مشاريع احترافية.</p>
-        
-        <p><i class="fas fa-map-marker-alt" style="color: #e74c3c;"></i> <strong>الموقع:</strong> 
-            <a href="https://www.google.com/maps?q=Aden,Yemen" target="_blank" style="color: #1a252f; font-weight: bold;">
-                عدن، اليمن (اضغطي هنا لفتح GPS)
-            </a>
-        </p>
+        <p><i class="fas fa-map-marker-alt" style="color:red"></i> <strong>الموقع:</strong> <a href="https://www.google.com/maps?q=Aden,Yemen" target="_blank">عدن، اليمن (فتح GPS)</a></p>
     </section>
 
     <section id="skills">
@@ -51,23 +39,27 @@
             <li>HTML & CSS</li>
             <li>JavaScript</li>
             <li>إدارة الوقت</li>
-            <li>تصميم واجهات المستخدم</li>
+            <li>التصميم</li>
         </ul>
     </section>
 
     <section id="portfolio">
         <h2>أعمالي والشهادات</h2>
-        <p>نماذج من أعمالي (عرض تقديمي):</p>
-        <a href="presentation.pptx" target="_blank" class="btn">
-            <i class="fas fa-file-powerpoint"></i> فتح العرض التقديمي
-        </a>
-        
-        <hr style="margin: 30px 0; border: 0; border-top: 1px dashed #ccc;">
-        
-        <h3><i class="fas fa-award" style="color: #d4af37;"></i> شهادة تطوير الذات</h3>
+        <a href="presentation.pptx" target="_blank" class="btn">فتح العرض التقديمي</a>
         <div class="cert-container">
             <a href="cert.jpg" target="_blank">
-                <img src="cert.jpg" alt="شهادة دانية النجار" class="cert-img">
+                <img src="cert.jpg" alt="شهادة دانية" class="cert-img">
             </a>
         </div>
-        <p style="text-align: center; font-size: 0.9em; color: #777;">(اضغطي على الشهادة لمشاهدتها ب
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <div style="text-align:center;">
+            <a href="mailto:danua.naggar@gmail.com" class="icon-link" style="color: #ea4335;"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/967773423793" class="icon-link" style="color: #25d366;"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:967773423793" class="icon-link" style="color: #3498db;"><i class="fas fa-phone-alt"></i></a>
+        </div>
+    </section>
+</body>
+</html>
